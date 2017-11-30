@@ -1,0 +1,19 @@
+doctype
+html
+    head
+        meta(charset="utf-8")
+        link(rel='stylesheet', href='/css/style.css')
+        title IP Map
+    body
+        div.page
+            header.header
+                p Карта IP адресов, посещавших ваш ресурс
+
+                div#loader.loader
+                    div#loader-inner.loader-inner
+
+            div#map.ip-address-map
+
+
+        script(src='/js/app.js')
+        script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyANNY2DaLSpP0W5cyAoHe-IAuBxTiIcyH8&callback=initMap')

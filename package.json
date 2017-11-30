@@ -1,0 +1,13 @@
+{
+    "name": "ipMap",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "nodemon": "^1.12.1",
+        "pug": "2.0.0-beta11"
+    }
+}
